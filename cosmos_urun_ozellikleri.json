@@ -1,0 +1,33 @@
+[
+  {
+    "id": "KHV-ETH-250",
+    "kategori": "kahve",
+    "urunId": 1,
+    "ad": "Etiyopya Yirgacheffe 250 g",
+    "ozellikler": {
+      "mense": "Etiyopya",
+      "bolge": "Yirgacheffe",
+      "islemeYontemi": "yikanmis",
+      "kavurmaDerecesi": "acik",
+      "rakimMetre": 1900,
+      "tadimNotlari": [
+        "yasemin",
+        "bergamot",
+        "seftali"
+      ]
+    }
+  },
+  {
+    "id": "EKP-V60-01",
+    "kategori": "ekipman",
+    "urunId": 5,
+    "ad": "V60 Seramik Dripper",
+    "ozellikler": {
+      "malzeme": "seramik",
+      "boyut": "02",
+      "kapasiteFincan": "1-4",
+      "renk": "beyaz",
+      "garantiAy": 12
+    }
+  }
+]

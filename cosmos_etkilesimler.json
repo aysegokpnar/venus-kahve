@@ -1,0 +1,44 @@
+[
+  {
+    "id": "e-001",
+    "musteriId": "M1",
+    "tip": "tadim_notu",
+    "tarih": "2026-07-20T10:30:00Z",
+    "kanal": "web",
+    "notMetni": "Etiyopya kahvesini çok sevdi, çiçeksi ve meyvemsi notalar arıyor.",
+    "etiketler": [
+      "acik_kavurma",
+      "meyvemsi",
+      "filtre_kahve"
+    ],
+    "tadimTercihi": {
+      "asitlilik": "yuksek",
+      "govde": "hafif",
+      "demlemeYontemi": "V60"
+    }
+  },
+  {
+    "id": "e-003",
+    "musteriId": "M4",
+    "tip": "telefon",
+    "tarih": "2026-08-01T09:15:00Z",
+    "kanal": "telefon",
+    "notMetni": "Haftalık ev harmanı siparişini 10 kg'a çıkarmak istiyor, teslimat günü pazartesi.",
+    "etiketler": [
+      "toptan",
+      "duzenli_siparis"
+    ]
+  },
+  {
+    "id": "e-004",
+    "musteriId": "M4",
+    "tip": "sikayet",
+    "tarih": "2026-09-18T16:40:00Z",
+    "kanal": "telefon",
+    "notMetni": "Son teslimatta bir paket geç ulaştı, kargo firmasını değiştirmemizi rica etti.",
+    "etiketler": [
+      "sikayet",
+      "teslimat"
+    ]
+  }
+]
