@@ -1,0 +1,23 @@
+name: JSON ve Python kontrolü
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  dogrula:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Depoyu indir
+        uses: actions/checkout@v4
+
+      - name: JSON dosyalarını kontrol et
+        run: |
+          for f in *.json; do
+            echo "Kontrol ediliyor: $f"
+            python3 -m json.tool "$f" > /dev/null
+          done
+          echo "Tüm JSON dosyaları geçerli."
+
+      - name: Python betiğini derle
+        run: python3 -m py_compile cosmos_yukle.py
